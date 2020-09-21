@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Quotes</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="parent">
+        <div class="quote">
+          <!-- Vue app section -->
+
+          <!-- <h1>' {{quote}} '</h1>
+          <h3>{{author}}</h3> -->
+
+          <!-- JavaScript section -->
+          <h1 id="quote">quote</h1>
+          <h3 id="author">author</h3>
+          <!-- end -->
+        </div>
+        <div class="button">
+          <button
+            onclick="fetchQuotes()"
+            class="bubbly-button"
+            id="callFunction"
+          >
+            Next
+          </button>
+        </div>
+
+        <!-- vue app section -->
+        <!-- <h4>{{developer}}</h4> -->
+
+        <!-- javascript section -->
+        <h4 id="developer"></h4>
+        <input type="button" onclick="print()" value="print" />
+      </div>
+    </div>
+    <!-- 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="/script.js"></script>
+  </body>
+</html>
